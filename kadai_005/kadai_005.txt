@@ -1,0 +1,38 @@
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial (main|MERGING)
+$ mkdir git_challenge
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial (main|MERGING)
+$ cd git_challenge
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main|MERGING)
+$ git init
+Initialized empty Git repository in C:/Users/kmtsu/git_tutorial/git_challenge/.git/
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ echo "Hello, world!" > hello_world.txt
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git add hello_world.txt
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main 81f6430] hello_world.txtを追加
+ 1 file changed, 1 deletion(-)
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ echo "こんにちは、世界！" >> hello_world.txt
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git add hello_world.txt
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git commit -m "日本語訳を追記"
+[main 1b201ed] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git log --oneline
+1b201ed (HEAD -> main) 日本語訳を追記
+81f6430 hello_world.txtを追加
+
