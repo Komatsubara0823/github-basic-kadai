@@ -1,0 +1,41 @@
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial (main|MERGING)
+$ mkdir git_challenge
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial (main|MERGING)
+$ cd git_challenge
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main|MERGING)
+$ git init
+Initialized empty Git repository in C:/Users/kmtsu/git_tutorial/git_challenge/.git/
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git add hello_world.txt
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 542a67d] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git add hello_world.txt
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git commit -m "日本語を追記"
+[main 089ad14] 日本語を追記
+ 1 file changed, 2 insertions(+)
+
+kmtsu@dynabook2025 MINGW64 ~/git_tutorial/git_challenge (main)
+$ git log
+commit 089ad14042afea127a3ea4e7765c20922078d6f3 (HEAD -> main)
+Author: Komatsubara0823 <kmtsubr@gmail.com>
+Date:   Tue Sep 22 17:10:40 2026 +0900
+
+    日本語を追記
+
+commit 542a67d28a6d004bf296fef609e3da0234c25cca
+Author: Komatsubara0823 <kmtsubr@gmail.com>
+Date:   Tue Sep 22 17:09:19 2026 +0900
+
+    hello_world.txtを追加
+
