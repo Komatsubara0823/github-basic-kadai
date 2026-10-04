@@ -18,13 +18,13 @@ const holidays = [
 ];
 
 // for文の場合
-for (let i = 0; i <= holidays.length; i += 1) {
+for (let i = 0; i <= holidays.length - 1; i += 1) {
   console.log(holidays[i]);
 }
 
 // while文の場合
 let num = 0;
-while (num < holidays.length + 1) {
+while (num < holidays.length) {
   console.log(holidays[num]);
   num += 1;
 }
